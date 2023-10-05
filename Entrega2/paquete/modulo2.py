@@ -13,6 +13,7 @@ class Tienda:
     pass
    
     def __init__(self,articulo,valor,categoria):
+        self.Items=[]
         self.articulo = articulo
         self.valor = valor
         self.categoria = categoria
@@ -24,9 +25,10 @@ Compra2 =   Tienda("coca-cola", "500", "bebida")
 Compra3 =   Tienda("hamburguesa", "3000","comida")
 Compra4 =   Tienda("Hot dog","1000","comida")
 
-def suma_total(Tienda):
+print("Elegiste comprar:")
 
-    total = 0
-    print(Tienda(Compra1+ Compra2 + Compra3 + Compra4))
+print(Compra1,Compra2,Compra3,Compra4);
 
-    print(suma_total)
+#Valor total Carrito
+
+# Calcular el total del carrito

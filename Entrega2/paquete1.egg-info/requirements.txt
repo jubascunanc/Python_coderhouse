@@ -1,0 +1,6 @@
+#requerimientos de texto 
+nombre_de_la_biblioteca==versión
+requests==2.25.1
+numpy>=1.19.5
+matplotlib!=3.4.0
+
